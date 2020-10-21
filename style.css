@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url("../images/regal.png");
+    background: <img class="clearfix" src="desktop/background.jpg">
     background-size: auto, cover;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
