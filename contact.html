@@ -1,58 +1,92 @@
-<html>
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <body>
-        </head>
-<div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Aman Chaudhry</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.">Contact</a>
-                </li>
-              </ul> 
-        </div>
-    </header>
-    <div class="container">
-        <h1>Contact</h1>
-        <hr>
-        <div class="form">
-            <form>
-                <div>
-         
-                    <label for="name">Name</label>
-                    <br>
-                    <input type="text" id="name" placeholder="John Smith">
-                </div>
-                <div>
-                    <label for="mail">Email</label>
-                    <br>
-                    <input type="email" id="mail" placeholder="example@gmail.com">
-                </div>
-                <div>
-                    <label for="msg">Message</label>
-                    <br>
-                    <textarea id="msg" name="user_message"></textarea>
-                </div>
-                <div class="button">
-                    <button type="submit">Submit</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <footer>
-        <p id="Copyright">Copyright © </p>
-    </footer>
-</body>
+<!DOCTYPE html>
+<html lang="en-us">
 
-</html>
+  <head>
+
+      <meta charset="UTF-8">
+      <title>Aman Chaudhry</title>
+      <meta name="viewport" content="width-device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css">
+
+
+  </head>
+
+  <body>
+      <!-- navbar-->
+      <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e9f3f5;">
+        <a class="navbar-brand ml-3 h1" href="index.html">
+
+         
+          Aman Chaudhry</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- navbar links -->
+            <div class="container">
+              <div class="row">
+                <div class="navbar-nav ml-auto mr-5" style="display: flex; flex-direction: row; justify-content: space-evenly; width: 100%;">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="index.html">About</a>
+                  </li>
+                    <span class="navbar-text"> | </span>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                    <span class="navbar-text dropdown"> | </span>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+    </nav>
+  <!-- navbar end  -->
+
+          <!-- main body portfolio list -->
+          <main class="container mt-4 pb-5 d-flex flex-wrap">
+            <div class="jumbotron">
+              <h1 class="display-4">Reach out to me!</h1>
+              <p class="lead">Below are several ways you can get in touch with me, view my GitHub Repo, my LinkedIn page, and check out my resume.</p>
+              <hr class="my-4">
+              <a class="btn btn-primary btn-lg ml-5 mr-5" href="https://github.com/achaudhry93" target="_blank" role="button">My GitHub Profile</a>
+              <a class="btn btn-primary btn-lg mr-5" href="https://www.linkedin.com/in/aman-chaudhry-9a46341b8/" target="_blank" role="button">My LinkedIn Profile</a>
+              <a class="btn btn-primary btn-lg mr-5" href = "mailto:amanherach@gmail.com?subject = Touching%20Base&body = Message" role="button">E-mail Me</a>
+          
+
+            </div>
+              
+              <div class="col-md-2">   
+              </div>
+            </div>
+    
+          <!-- empty space -->
+          <div class="row pb-5">
+            <div class="col-md-12">
+              <div class="container">
+              </div>
+            </div>
+          </div>
+          <!-- end empty space -->
+        </main>
+          <!-- main body portfolio list end -->
+    
+          <!-- footer -->
+            <div class="row">
+              <div class="col-md-12">
+                <footer class="page-footer fixed-bottom p-3" style="background-color: #e3f2fd;">
+                  <div class="container">
+                    <span class="text-muted">© 2020 Copyright: Aman Chaudhry
+                  </div>
+                </footer>
+              </div>
+          </div>
+          <!-- footer end  -->
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      </body>
+    </html>
